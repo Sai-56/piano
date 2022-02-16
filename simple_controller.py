@@ -3,7 +3,7 @@ import board
 import neopixel
 from controller import Controller
 
-class SimpleController:
+class SimpleController(Controller):
     DOWN = 144
 
     def __init__(self, num_lights, color_on, color_off):
