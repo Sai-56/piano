@@ -8,7 +8,7 @@ class SimpleController(Controller):
 
     def __init__(self, num_lights, color_on, color_off):
         # state of the lights
-        Controller.__init__(num_lights)
+        Controller.__init__(self, num_lights)
         self.color_on  = color_on
         self.color_off  = color_off
 

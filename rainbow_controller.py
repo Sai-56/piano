@@ -8,7 +8,7 @@ class RainbowController(Controller):
 
     def __init__(self, num_lights):
         # state of the lights
-        Controller.__init__(num_lights)
+        Controller.__init__(self, num_lights)
 
 
     def process_event(self, event):
